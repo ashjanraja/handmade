@@ -1,0 +1,356 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.container{
+    width:1200px;
+    margin:auto;
+
+}
+
+
+  .header{
+    background-image: url("../img/WhatsApp\ Image\ 2020-11-27\ at\ 18.53.25.jpeg " );
+     height: 100vh;
+     background-position: top ;
+}
+
+
+ .header .nav{
+     padding-top: 20px;
+ }
+
+    .header .nav .logo{
+        float: left;
+        width: 40%;
+    }
+
+     .header .nav .logo img{
+         width: 50%;
+     }
+
+     .header .nav .navbar{
+        float: left;
+        width: 60%;
+     } 
+
+
+     .header .nav .navbar ul{
+        list-style: none;
+        overflow: hidden;
+       
+    }
+
+    .header .nav .navbar ul li{
+        float: left;
+        padding: 0 20px;
+    }
+    
+    .header .nav .navbar ul li a{
+        
+        color: white;
+        text-decoration:none ;
+        font-size: 22px;
+        border-radius: 50px;
+        background: #7E52A0;
+        width: 50px;
+        height: 55px;
+        font-family: "Alegreya Sans";
+        
+    }
+
+
+    .header .nav .navbar ul li a:hover{
+        background-color: #fff;
+        color:black ;
+     }
+
+      .header .header-content{
+        text-align: center;
+        margin-top: 200px;
+        color: white;
+       }
+
+      .header .header-content h1{
+        font-size: 55px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: "Alegreya Sans";
+        }
+
+        .header-content p{
+            font-size: 25px;
+            font-family: "Alegreya Sans";
+        }
+
+        .header-content .button{
+
+            margin-top:40px;
+            }
+
+            .header-content .button a{
+                color: #fff;
+                text-decoration: none;
+                border-radius: 50px;
+                background: #7E52A0;
+                width: 50px;
+                height: 50px; 
+                padding: 20px;
+                margin-left: 20px;
+                margin-bottom : 20px;
+                font-family: "Alegreya Sans";
+                
+            }
+
+            .header-content .button a:hover{
+                background-color: #fff;
+                color:black ;
+            }
+              
+            .Who{
+                background-color:#fff;
+                margin-top: 88px;
+                overflow:hidden;
+            }
+            .Who .Who-content{
+                float: left;
+                width: 50%;
+                margin: 40px ;
+            }
+            .Who .Who-content h2{
+                padding-top: 20;
+                font-size: 50px;
+                color:#7E52A0;
+                font-family: "Alegreya Sans";
+            }
+            .Who .Who-content p{
+                padding-top: 20px;
+                font-size: 22px;
+                font-family: "Alegreya Sans";
+                color:#7e52a0 ;
+            }
+            .Who .Who-image{
+                float: left;
+                width: 30%;
+            }
+            .Who .Who-image img{
+                width:100% ;
+            }
+            
+
+            .first{
+                margin-top:60px ;
+                background-color:#fff; 
+                overflow: hidden;
+                
+            }
+            .first h2{
+                text-align: center;
+                font-family: "Alegreya Sans";
+                font-size: 40px; 
+                padding-top: 20px;
+                color: #7E52A0;
+                
+            }
+              .first p{
+                text-align: center;
+                font-family: "Alegreya Sans";
+                font-size: 20px;
+                padding-top: 22px;
+                padding-bottom: 22px;
+                color: #7E52A0;
+              }
+              .first .first-image{
+                  float: left;
+                  width:33.33%;
+                  padding-left: 44px;
+                  margin-top: 50px;
+              }
+              .first .first-image img{
+                  width: 88%;
+              }
+
+         .caps {
+            margin-top:77px;
+            text-align:center;
+            overflow: hidden;
+         }
+          .caps h2{
+            font-family: "Alegreya Sans";
+            font-size: 40px;
+            padding-top: 20px;
+            color: #7e52a0;    
+          }
+          .caps p{
+              font-family: "Alegreya Sans";
+              font-size: 20px;
+              color: #7e52a0;
+              padding-top: 22px;
+              padding-bottom: 22px;
+              
+          }
+
+          .caps .caps-items .caps-item {
+            float:left;
+            width:33.33%;
+            padding-left:10px;
+            margin-top:20px;
+
+          }
+          .caps .caps-items .caps-item img{
+              width: 88%;
+          }
+
+
+       .flower {
+        margin-top:50px;
+        text-align:center;
+        overflow: hidden;
+    }
+      .flower h2{
+        
+        font-family: "Alegreya Sans";
+        font-size: 40px; 
+        padding-top: 20px;
+
+        color: #7E52A0;
+      }
+
+       .flower p{
+        
+        font-family: "Alegreya Sans";
+        font-size: 20px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        color: #7E52A0;
+       }
+    .flower .flower-items .flower-item {
+        float:left;
+        width:33.33%;
+        padding-left:10px;
+        margin-top:20px;
+    }
+    .flower .flower-items .flower-item h3{
+        font-family: "Alegreya Sans";
+        font-size: 25px; 
+        padding-top: 20px;
+
+        color: #7E52A0;
+    }
+    .flower .flower-items .flower-item img {
+        width:88%;
+    }
+      .wall{
+          margin-top: 88px;
+          text-align: center;
+          overflow: hidden;
+      }
+      .wall h2{
+        font-family: "Alegreya Sans";
+        font-size: 40px;
+        padding-top: 20px;
+        color: #7E52A0;
+
+      }
+      .wall p{
+        font-family: "Alegreya Sans";
+        font-size: 20px;
+        color: #7E52A0;
+        padding-top: 22px;
+        padding-bottom: 22px;
+      }
+      .wall .wall-items .wall-item{
+        float:left;
+        width:33.33%;
+        padding-left:10px;
+        margin-top:20px;
+      }
+      .wall .wall-items .wall-item img{
+          width: 88%;
+      }
+      
+     .end {
+         background-color: #7E52A0;
+         text-align: center;
+         margin-top: 40px;
+     }
+     .end .word {
+         padding-top: 80px;
+     }
+     .end .word h4{
+        font-family: "Alegreya Sans";
+        font-size: 30px; 
+        padding-bottom: 40px;
+        color: #fff;
+     }
+     .end .word p{
+        font-family: "Alegreya Sans";
+        padding-bottom: 33px;
+        font-size: 22px;
+        color: #fff;
+     }
+     .end .button{
+         padding-top: 33px;
+     }
+     .fa-facebook {
+        padding: 20px;
+            font-size: 50px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+              margin:  5px 2px;
+            border-radius: 50%; 
+        background: #7709AD;
+        color: white;
+       
+      }
+      .fa-facebook:hover {
+        background: #032164;
+        color: white;
+       
+      }
+      .fa-instagram {
+        padding: 20px;
+            font-size: 50px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+              margin:  5px 2px;
+            border-radius: 50%; 
+        background:  #7709AD;
+        color: white;
+       
+      }
+      .fa-instagram:hover {
+        background: #7e062a;
+        color: white;
+       
+      }
+      .fa-snapchat-ghost {
+        padding: 20px;
+            font-size: 50px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+              margin:  5px 2px;
+            border-radius: 50%; 
+        background:  #7709AD;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+       
+      }
+      .fa-snapchat-ghost:hover {
+        background:  #fffc00;
+        color: white;
+       
+      }
